@@ -1,30 +1,128 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "page_404": {
       "type": "page_404",
+      "disabled": true,
       "settings": {
         "color_scheme": "default",
         "enable_background_around_container": false,
         "container_size": "full-screen",
+        "desktop_overlay_opacity": 0,
+        "mobile_overlay_opacity": 0,
         "caption": "404",
         "title": "Page not found",
         "heading_size": "h2",
-        "text": "<p>The page you're looking for no longer exists<\/p>",
+        "text": "<p>The page you're looking for no longer exists</p>",
         "body_size": "body3",
         "desktop_content_background": "none",
         "mobile_content_background": "none",
         "btn_text": "GO TO HOME PAGE",
-        "btn_url": "\/",
+        "btn_url": "/",
         "btn_style": "solid",
         "extra_btn_text": "RETURN TO PRODUCTS",
-        "extra_btn_url": "shopify:\/\/collections\/all",
+        "extra_btn_url": "shopify://collections/all",
         "extra_btn_style": "outline",
+        "add_side_paddings": true,
+        "section_spacing_top": 0,
+        "section_spacing_bottom": 0
+      }
+    },
+    "countdown_banner_hPUp7N": {
+      "type": "countdown-banner",
+      "blocks": {
+        "subheading_APNbe6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "COUNTDOWN BANNER"
+          }
+        },
+        "heading_ajRKf6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Limited time promotion",
+            "heading_size": "h4"
+          }
+        },
+        "text_fbCM66": {
+          "type": "text",
+          "settings": {
+            "body": "Create urgency around sales and special offers",
+            "body_size": "body3"
+          }
+        },
+        "countdown_qBmQ68": {
+          "type": "countdown",
+          "settings": {
+            "color_scheme": "secondary",
+            "background_type": "separate",
+            "background_style": "solid",
+            "enable_separators": true,
+            "captitalize_unit_labels": true,
+            "timer_desktop_width": 75,
+            "mode": "fixed",
+            "year": "2025",
+            "month": "january",
+            "day": "1",
+            "hour": "0",
+            "minute": "0",
+            "hide_on_complete": true,
+            "evergreen_unit": "day",
+            "evergreen_value": 1,
+            "evergreen_on_complete": "restart"
+          }
+        },
+        "buttons_DWG8RW": {
+          "type": "buttons",
+          "settings": {
+            "btn_text": "Button label",
+            "btn_url": "",
+            "btn_style": "solid",
+            "extra_btn_text": "",
+            "extra_btn_url": "",
+            "extra_btn_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_APNbe6",
+        "heading_ajRKf6",
+        "text_fbCM66",
+        "countdown_qBmQ68",
+        "buttons_DWG8RW"
+      ],
+      "settings": {
+        "color_scheme": "white",
+        "enable_background_around_container": false,
+        "container_size": "full-screen",
+        "desktop_ratio": 0.4,
+        "mobile_ratio": 1.6,
+        "desktop_overlay_opacity": 0,
+        "mobile_overlay_opacity": 0,
+        "desktop_content_position": "align-items:center;justify-content:center;",
+        "desktop_content_align": "center",
+        "content_max_width": 704,
+        "content_spacing": 116,
+        "mobile_content_position": "align-items:center;justify-content:center;",
+        "mobile_content_align": "center",
+        "desktop_content_background": "none",
+        "mobile_content_background": "none",
+        "add_side_paddings": true,
         "section_spacing_top": 0,
         "section_spacing_bottom": 0
       }
     }
   },
   "order": [
-    "page_404"
+    "page_404",
+    "countdown_banner_hPUp7N"
   ]
 }
